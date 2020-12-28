@@ -1,7 +1,6 @@
 import scrapy
 
 
-
 class KittensSpider(scrapy.Spider):
     # can be any string, will be used to call from the console
     name = 'kitten_getter'
